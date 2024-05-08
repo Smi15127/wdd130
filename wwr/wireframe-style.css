@@ -1,0 +1,16 @@
+.logo-img {
+    width: 100px;
+}
+.first-menu a:link, .first-menu a:visited {
+    color: orange;
+}
+#hero-banner {
+    width:100%;
+    /* background-img: url('../images/antigua.jpg); */
+    /* alt tag = this is an image of an antigua with a couple at the beach */
+    height: 1500px;
+    background-repeat:no-repeat;
+}
+#hero-image {
+    display: block;
+}
