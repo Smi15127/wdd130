@@ -1,10 +1,20 @@
 body{
     margin: 0;
+    background-color: gray;
 }
-.heroimage{
+#heroimage{
     width: 100%;
-    padding: 0%, 0%, 0%, 0%;
 }
 .subimages{
+    text-align: center;
+}
+.subimages #circleimage{
     border-radius: 50%;
+    display: inline;
+    width: 150px;
+    padding: 15px;
+    border: 30px;
+    margin-left: 80px;
+    background-color: black;
+    
 }
