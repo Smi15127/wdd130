@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+main{
+    width: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 15px 15px 0px 0px;
+}
+.card{
+    width: 250px;
+    margin: 0 auto;
+    background-color: white;
+    justify-items: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.time{
+    margin: 0 auto;
+    justify-self: center;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+.where{
+    margin: 0 auto;
+    justify-self: center;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+.what{
+    margin: 0 auto;
+    justify-self: center;
+    grid-column: 1/4;
+    grid-row: 4/6;
+    padding: 20px;
+}
+.bridge{
+    width: 100%;
+    border-bottom: 40px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    padding-bottom: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+.stats{
+    width: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    justify-items: center;
+    background-color:rgb(75, 75, 182);
+    color: white;
+    border-radius: 0px 0px 15px 15px;
+}
+.read{
+    font-size:small;
+    text-align: center;
+    margin: 0 auto;
+    justify-self: center;
+    grid-column: 1/2;
+    grid-row: 6/7;
+    padding: 20px;
+}
+.views{
+    font-size:small;
+    text-align: center;
+    margin: 0 auto;
+    justify-self: center;
+    grid-column: 2/3;
+    grid-row: 6/7;
+    padding: 20px;
+}
+.comments{
+    font-size:small;
+    text-align: center;
+    margin: 0 auto;
+    justify-self: center;
+    grid-column: 3/4;
+    grid-row: 6/7;
+    padding: 20px 10px;
+}
+
+border radius will help with rounded edges
