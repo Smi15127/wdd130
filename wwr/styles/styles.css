@@ -23,6 +23,47 @@
   --nav-hover-link-color: #D1FEFF;
   --nav-hover-background-color: #547423;
 }
+.hero-img-faq{
+    width: 100%;
+}
+.hero-msg-faq{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.hero-msg-faq h1{
+    color: #D1FEFF;
+    text-align: center;
+    font-size: 65px;
+}
+.hero-box-faq{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: -1;
+}
+.hero-faq{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.faq-main h3{
+    grid-column: 1/4;
+    text-align: center;
+}
+.faq-main p{ 
+    grid-column: 1/4;
+    justify-content: center;
+    text-align: center;
+}
+.items-body{
+}
+.main-box-faq{
+    justify-self: center;
+    margin: 0 auto;
+    grid-column: 1/4;
+}
+.faq-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 #content{
 max-width: 1600px;
 margin: 0 auto;
